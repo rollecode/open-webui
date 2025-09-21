@@ -2,6 +2,14 @@
 .webui_secret_key
 cost_tracker_data.json
 data/
+venv-wsl
+python3.11
+fix-venv-paths.sh
+get-pip.py
+data/
+cost_tracker_data.json
+backup_cron.sh
+backup_chats.py
 x.py
 yarn.lock
 .DS_Store
