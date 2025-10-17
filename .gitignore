@@ -3,6 +3,7 @@
 cost_tracker_data.json
 data/
 venv-wsl
+venv-arch
 python3.11
 fix-venv-paths.sh
 get-pip.py
