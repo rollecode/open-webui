@@ -1152,10 +1152,10 @@ async def chat_completion(
     oauth_token = None
     try:
         oauth_token = request.app.state.oauth_manager.get_oauth_token(
-            user.id, request.cookies.get("oauth_session_id", None)
+            user.id, request.cookies.get('oauth_session_id', None)
         )
     except Exception as e:
-        log.error(f"Error getting OAuth token: {e}")
+        log.error(f'Error getting OAuth token: {e}')
 
     metadata = {}
     try:
